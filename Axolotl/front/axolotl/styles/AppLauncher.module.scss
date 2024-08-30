@@ -1,0 +1,27 @@
+.appLauncher {
+  padding: 20px;
+}
+
+.appList {
+  list-style: none;
+  padding: 0;
+}
+
+.appItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.launchButton {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.launchButton:hover {
+  background-color: #005bb5;
+}
