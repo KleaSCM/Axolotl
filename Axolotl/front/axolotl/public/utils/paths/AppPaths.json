@@ -1,0 +1,82 @@
+﻿[
+    {
+        "name":  "Awakened PoE Trade.exe",
+        "path":  "C:\\Program Files\\Awakened PoE Trade\\Awakened PoE Trade.exe",
+        "icon":  "/utils/paths/Awakened PoE Trade.exe.lnk.png"
+    },
+    {
+        "name":  "Battle.net",
+        "path":  "C:\\Program Files (x86)\\Battle.net\\Battle.net Launcher.exe",
+        "icon":  "/utils/paths/Battle.net.lnk.png"
+    },
+    {
+        "name":  "Code.exe",
+        "path":  "C:\\Users\\Kliea\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "icon":  "/utils/paths/Code.exe.lnk.png"
+    },
+    {
+        "name":  "Diablo IV.exe",
+        "path":  "C:\\Program Files (x86)\\Diablo IV\\Diablo IV.exe",
+        "icon":  "/utils/paths/Diablo IV.exe.lnk.png"
+    },
+    {
+        "name":  "EXCEL.EXE",
+        "path":  "C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE",
+        "icon":  "/utils/paths/EXCEL.EXE.lnk.png"
+    },
+    {
+        "name":  "Microsoft Teams classic (work or school)",
+        "path":  "C:\\Users\\Kliea\\AppData\\Local\\Microsoft\\Teams\\Update.exe",
+        "icon":  "/utils/paths/Microsoft Teams classic (work or school).lnk.png"
+    },
+    {
+        "name":  "NVIDIA GeForce Experience.exe",
+        "path":  "C:\\Program Files\\NVIDIA Corporation\\NVIDIA GeForce Experience\\NVIDIA GeForce Experience.exe",
+        "icon":  "/utils/paths/NVIDIA GeForce Experience.exe.lnk.png"
+    },
+    {
+        "name":  "PathOfExile_x64Steam.exe",
+        "path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Path of Exile\\PathOfExile_x64Steam.exe",
+        "icon":  "/utils/paths/PathOfExile_x64Steam.exe.lnk.png"
+    },
+    {
+        "name":  "PowerPoint",
+        "path":  "C:\\Program Files\\Microsoft Office\\root\\Office16\\POWERPNT.EXE",
+        "icon":  "/utils/paths/PowerPoint.lnk.png"
+    },
+    {
+        "name":  "python.exe",
+        "path":  "C:\\Python312\\python.exe",
+        "icon":  "/utils/paths/python.exe.lnk.png"
+    },
+    {
+        "name":  "setup.exe",
+        "path":  "C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\setup.exe",
+        "icon":  "/utils/paths/setup.exe.lnk.png"
+    },
+    {
+        "name":  "steam.exe",
+        "path":  "C:\\Program Files (x86)\\Steam\\steam.exe",
+        "icon":  "/utils/paths/steam.exe.lnk.png"
+    },
+    {
+        "name":  "vivaldi.exe - Shortcut",
+        "path":  "C:\\Users\\Kliea\\AppData\\Local\\Vivaldi\\Application\\vivaldi.exe",
+        "icon":  "/utils/paths/vivaldi.exe - Shortcut.lnk.png"
+    },
+    {
+        "name":  "Windows PowerShell",
+        "path":  "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "icon":  "/utils/paths/Windows PowerShell.lnk.png"
+    },
+    {
+        "name":  "WINWORD.EXE",
+        "path":  "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+        "icon":  "/utils/paths/WINWORD.EXE.lnk.png"
+    },
+    {
+        "name":  "World of Warcraft Launcher.exe",
+        "path":  "C:\\Program Files (x86)\\World of Warcraft\\World of Warcraft Launcher.exe",
+        "icon":  "/utils/paths/World of Warcraft Launcher.exe.lnk.png"
+    }
+]
