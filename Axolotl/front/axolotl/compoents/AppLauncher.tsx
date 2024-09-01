@@ -1,9 +1,7 @@
-
 import React, { useState } from 'react';
 import { appPaths } from '../utils/appPaths';
-import styles from '../styles/AppLauncher.module.scss'; 
+import styles from '../styles/AppLauncher.module.scss';
 
-// Define the Apps type if not already defined
 type App = {
   name: string;
   path: string;
@@ -11,96 +9,62 @@ type App = {
 };
 
 type Apps = {
-  [key: string]: App[];
+  [category: string]: App[];
 };
 
-const AppLauncher: React.FC = () => {
-  // Define categories and apps
-  const [categories] = useState<string[]>([
-    'Games',
-    'Development',
-    'Music',
-    'Media',
-    'Office',
-    'Work',
-    'Web',
-    'Tools'
-  ]);
+const apps: Apps = {
+  Games: [
+    { name: 'Battle.net', path: appPaths.battleNet, icon: '/battlenet.jpg' },
+    { name: 'Steam', path: appPaths.steam, icon: '/Steam.jpg' },
+    { name: 'Awakened PoE Trade', path: appPaths.awakenedPoETrade, icon: '/poeTrade.jpg' },
+  ],
+  Development: [
+    { name: 'Visual Studio', path: appPaths.visualStudio, icon: '/vs.jpg' },
+    { name: 'VSCode', path: appPaths.vsCode, icon: '/code.jpg' },
+    { name: 'PostgreSQL', path: appPaths.postgreSQL, icon: '/postgresql.png' },
+  ],
+  Music: [
+    { name: 'Spotify', path: appPaths.spotify, icon: '/Spotify.png' },
+  ],
+  Media: [
+    { name: 'Vivaldi', path: appPaths.vivaldi, icon: '/vivaldi.png' },
+  ],
+  Office: [
+    { name: 'MS Word', path: appPaths.msWord, icon: '/ms-word.svg' },
+    { name: 'MS Excel', path: appPaths.msExcel, icon: '/Excel.png' },
+    { name: 'MS PowerPoint', path: appPaths.msPowerPoint, icon: '/Powerpoint.jpg' },
+    { name: 'MS Teams', path: appPaths.msTeams, icon: '/teams.jpg' },
+  ],
+  Tools: [
+    { name: 'Windows PowerShell (x86)', path: appPaths.powershellX86, icon: '/ps.jpg' },
+    { name: 'NVIDIA GeForce', path: appPaths.nvidiaGeForce, icon: '/nvidiagforceexp.jpg' },
+    { name: 'NVIDIA Share', path: appPaths.nvidiaShare, icon: '/share.jpg' },
+  ],
+};
 
+
+const AppLauncher: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('Games');
 
-
-  // place all the apps here
-  const apps: Apps = {
-    Games: [
-      { name: 'Battle.net', path: appPaths.battleNet, icon: 'path-to-battlenet-icon' },
-      { name: 'Steam', path: appPaths.steam, icon: 'path-to-steam-icon' },
-      { name: 'Awakened PoE Trade', path: appPaths.awakenedPoETrade, icon: 'path-to-awakenedpoetrade-icon' },
-      // Add more games here
-    ],
-    Development: [
-      { name: 'Visual Studio', path: appPaths.visualStudio, icon: 'path-to-visualstudio-icon' },
-      { name: 'VSCode', path: appPaths.vsCode, icon: 'path-to-vscode-icon' },
-      { name: 'PostgreSQL', path: appPaths.postgreSQL, icon: 'path-to-postgresql-icon' },
-      // Add more development tools here
-    ],
-    Music: [],
-    Media: [],
-    Office: [],
-    Work: [],
-    Web: [],
-    Tools: [
-      { name: 'Windows PowerShell (x86)', path: appPaths.powershellX86, icon: 'path-to-powershell-icon' },
-      // Add more tools here
-    ],
-  };
-  // end of app block
-
-  // Handler for launching apps
-  const handleLaunch = async (path: string) => {
-    try {
-      const response = await fetch('/api/launchApp', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ appPath: path })
-      });
-
-      const result = await response.json();
-      if (!response.ok) {
-        throw new Error(result.message || 'Failed to launch application');
-      }
-      alert(result.message);
-    } catch (error) {
-      if (error instanceof Error) {
-        alert(`Error: ${error.message}`);
-      } else {
-        alert('Unknown error occurred');
-      }
-    }
-  };
-
   return (
-    <div className={styles.appLauncher}>
-      <div className={styles.sidebar}>
-        <h2>Categories</h2>
-        <ul className={styles.categoryList}>
-          {categories.map((category) => (
-            <li
-              key={category}
-              className={category === selectedCategory ? styles.activeCategory : ''}
-              onClick={() => setSelectedCategory(category)}
-            >
+    <div className={styles['app-launcher']}>
+      <div className={styles['sidebar']}>
+        <ul>
+          {Object.keys(apps).map((category) => (
+            <li key={category} onClick={() => setSelectedCategory(category)}>
               {category}
             </li>
           ))}
         </ul>
       </div>
-      <div className={styles.appGrid}>
+      <div className={styles['app-grid']}>
         {apps[selectedCategory].map((app) => (
-          <div key={app.name} className={styles.appCard}>
-            <img src={app.icon} alt={app.name} className={styles.appIcon} />
-            <h3 className={styles.appName}>{app.name}</h3>
-            <button className={styles.launchButton} onClick={() => handleLaunch(app.path)}>Launch</button>
+          <div key={app.name} className={styles['app-card']}>
+            <img src={app.icon} alt={app.name} className={styles['app-icon']} />
+            <div>{app.name}</div>
+            <button className={styles['launch-button']} onClick={() => window.open(app.path)}>
+              Launch
+            </button>
           </div>
         ))}
       </div>
@@ -109,6 +73,31 @@ const AppLauncher: React.FC = () => {
 };
 
 export default AppLauncher;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
