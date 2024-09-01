@@ -1,27 +1,60 @@
-.appLauncher {
-  padding: 20px;
+.app-launcher {
+  display: flex;
+  height: 100vh;
 }
 
-.appList {
-  list-style: none;
+.sidebar {
+  width: 200px;
+  background-color: #2c3e50;
+  padding: 20px;
+  color: white;
+}
+
+.sidebar ul {
+  list-style-type: none;
   padding: 0;
 }
 
-.appItem {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  border-bottom: 1px solid #ddd;
+.sidebar li {
+  padding: 10px 0;
+  cursor: pointer;
+  color: white;
 }
 
-.launchButton {
-  background-color: #0070f3;
+.sidebar li:hover {
+  background-color: #34495e;
+}
+
+.app-grid {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.app-card {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.app-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.launch-button {
+  margin-top: 10px;
+  background-color: #3498db;
   color: white;
   border: none;
-  padding: 5px 10px;
+  padding: 10px 15px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
-.launchButton:hover {
-  background-color: #005bb5;
+.launch-button:hover {
+  background-color: #2980b9;
 }
