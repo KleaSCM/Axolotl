@@ -70,7 +70,7 @@
 
 
 import React, { useEffect, useState } from 'react';
-import styles from './Spotify.module.scss';
+import styles from '../styles/Spotify.module.scss';
 
 const CLIENT_ID = '3480f05891fc44d5ad2b161451a47979'; 
 const REDIRECT_URI = 'http://localhost:3000'; 
