@@ -1,19 +1,26 @@
 import React from 'react';
-import AppLauncher from '../compoents/AppLauncher';
-import Notepad from '../compoents/Notepad';
-import styles from '../styles/AppLauncher.module.scss'; 
+import AppLauncher from '../components/AppLauncher';
+import Notepad from '../components/Notepad';
+import Spotify from '../components/Spotify';
+import styles from '../styles/Home.module.scss'; 
 
 const Home: React.FC = () => {
   return (
-    <div className={styles['app-launcher']}>
-      <div style={{ flex: '1' }}>
-        <AppLauncher />
+    <div className={styles['home-container']}>
+      <div className={styles['main-content']}>
+        <div className={styles['app-launcher']}>
+          <AppLauncher />
+        </div>
+        <div className={styles['notepad']}>
+          <Notepad />
+        </div>
       </div>
-      <div style={{ width: '300px', borderLeft: '1px solid #ccc' }}>
-        <Notepad />
+      <div className={styles['spotify']}>
+        <Spotify />
       </div>
     </div>
   );
 };
 
 export default Home;
+

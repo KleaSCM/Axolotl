@@ -1,0 +1,31 @@
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.app-launcher {
+  flex: 1;
+  border-right: 1px solid #ccc;
+}
+
+.notepad {
+  width: 300px;
+}
+
+.spotify {
+  height: 80px; 
+  border-top: 1px solid #ccc;
+  background-color: #1db954; /* Spotify green */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+}
