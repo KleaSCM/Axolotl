@@ -1,4 +1,5 @@
-//spotify test component
+//Test page for spotify
+
 
 // import React, { useState, useEffect } from 'react';
 
@@ -88,7 +89,7 @@
 
 //   const handleLogin = () => {
 //     const client_id = "3480f05891fc44d5ad2b161451a47979";
-//     const redirect_uri = "http://localhost:3000/callback";
+//     const redirect_uri = "http://localhost:3000/spotify-test";
 //     const scopes = [
 //       "streaming",
 //       "user-read-email",
@@ -159,3 +160,4 @@
 // };
 
 // export default SpotifyTest;
+

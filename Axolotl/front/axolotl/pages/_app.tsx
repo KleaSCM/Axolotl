@@ -1,29 +1,21 @@
-
-
-import { AppProps } from 'next/app';
 import { useEffect } from 'react';
-import Script from 'next/script'; 
+import type { AppProps } from 'next/app';
+import Script from 'next/script';
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
-   
-    const loadSpotifyScript = () => {
-      if (!window.Spotify) {
-        const script = document.createElement('script');
-        script.src = 'https://sdk.scdn.co/spotify-player.js';
-        script.async = true;
-        document.body.appendChild(script);
-      }
+    // Ensure onSpotifyWebPlaybackSDKReady is defined globally
+    (window as any).onSpotifyWebPlaybackSDKReady = () => {
+      console.log('Spotify SDK script loaded and onSpotifyWebPlaybackSDKReady function defined');
     };
-
-    loadSpotifyScript();
   }, []);
 
   return (
     <>
       <Script
         src="https://sdk.scdn.co/spotify-player.js"
-        strategy="beforeInteractive" // Load the script before the page is interactive
+        strategy="afterInteractive"
+        onLoad={() => console.log('Spotify SDK script loaded')}
       />
       <Component {...pageProps} />
     </>

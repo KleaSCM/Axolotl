@@ -13,7 +13,7 @@ const Notepad: React.FC = () => {
         className={styles['textarea']}
         rows={10}
       />
-      {/* Implement text editor features */}
+      {/* text editor features */}
     </div>
   );
 };

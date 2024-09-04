@@ -1,0 +1,29 @@
+.playerContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.playlists {
+  margin-bottom: 20px;
+}
+
+.playlistItem {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+
+.tracks {
+  margin-top: 20px;
+}
+
+.trackItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.trackItem button {
+  margin-left: 10px;
+}

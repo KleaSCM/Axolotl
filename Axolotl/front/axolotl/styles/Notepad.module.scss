@@ -1,15 +1,15 @@
-
 .notepad-container {
   display: flex;
   flex-direction: column;
   height: 100%;
   padding: 10px;
+  box-sizing: border-box; /* Ensure padding and borders are included in width/height calculations */
 }
 
 .textarea {
   flex: 1;
   resize: none;
-  width: 100%;
+  width: 100%; /* Fit the container width */
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 10px;

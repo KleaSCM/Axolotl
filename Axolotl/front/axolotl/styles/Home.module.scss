@@ -1,31 +1,33 @@
-
 .home-container {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .main-content {
   display: flex;
   flex: 1;
+  height: calc(100vh - 20px); /* Adjust height if you have other elements like headers */
 }
 
 .app-launcher {
-  flex: 1;
-  border-right: 1px solid #ccc;
+  width: 75%; /* Adjust width to allow space for Notepad */
+  display: flex;
+  flex-direction: column;
 }
 
 .notepad {
-  width: 300px;
+  width: 50%; /* Ensure this width fits the Notepad */
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px; /* Adjust margin to move it slightly left if necessary */
 }
 
 .spotify {
-  height: 80px; 
-  border-top: 1px solid #ccc;
-  background-color: #1db954; /* Spotify green */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 20vh;
+  background-color: #1c1c1c;
   color: white;
-  font-size: 18px;
+  overflow: hidden;
 }

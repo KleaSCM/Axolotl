@@ -1,82 +1,82 @@
 [
     {
-        "name":  "Awakened PoE Trade.exe",
-        "path":  "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\Awakened PoE Trade.exe.lnk",
-        "icon":  "/utils/paths/Awakened PoE Trade.exe.png"
+        "name": "Awakened PoE Trade",
+        "path": "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\Awakened PoE Trade.exe.lnk",
+        "icon": "/utils/paths/Awakened PoE Trade.jpg"
     },
     {
-        "name":  "Battle.net",
-        "path":  "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\Battle.net.lnk",
-        "icon":  "/utils/paths/Battle.net.jpg"
+        "name": "Battle.net",
+        "path": "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\Battle.net.lnk",
+        "icon": "/utils/paths/Battle.net.jpg"
     },
     {
-        "name":  "Code.exe",
-        "path":  "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\Code.exe.lnk",
-        "icon":  "/utils/paths/Code.exe.png"
+        "name": "Code",
+        "path": "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\Code.exe.lnk",
+        "icon": "/utils/paths/Code.jpg"
     },
     {
-        "name":  "Diablo IV.exe",
-        "path":  "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\Diablo IV.exe.lnk",
-        "icon":  "/utils/paths/Diablo IV.exe.png"
+        "name": "Diablo IV",
+        "path": "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\Diablo IV.exe.lnk",
+        "icon": "/utils/paths/Diablo IV.jpg"
     },
     {
-        "name":  "EXCEL.EXE",
-        "path":  "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\EXCEL.EXE.lnk",
-        "icon":  "/utils/paths/EXCEL.EXE.png"
+        "name": "EXCEL.EXE",
+        "path": "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\EXCEL.EXE.lnk",
+        "icon": "/utils/paths/EXCEL.EXE.jpg"
     },
     {
-        "name":  "Microsoft Teams classic (work or school)",
-        "path":  "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\Microsoft Teams classic (work or school).lnk",
-        "icon":  "/utils/paths/Microsoft Teams classic (work or school).jpg"
+        "name": "Microsoft Teams classic (work or school)",
+        "path": "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\Microsoft Teams classic (work or school).lnk",
+        "icon": "/utils/paths/Microsoft Teams classic (work or school).jpg"
     },
     {
-        "name":  "NVIDIA GeForce Experience.exe",
-        "path":  "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\NVIDIA GeForce Experience.exe.lnk",
-        "icon":  "/utils/paths/NVIDIA GeForce Experience.exe.png"
+        "name": "NVIDIA GeForce Experience",
+        "path": "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\NVIDIA GeForce Experience.exe.lnk",
+        "icon": "/utils/paths/NVIDIA GeForce Experience.jpg"
     },
     {
-        "name":  "PathOfExile_x64Steam.exe",
-        "path":  "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\PathOfExile_x64Steam.exe.lnk",
-        "icon":  "/utils/paths/PathOfExile_x64Steam.exe.png"
+        "name": "PathOfExile_x64Steam",
+        "path": "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\PathOfExile_x64Steam.exe.lnk",
+        "icon": "/utils/paths/PathOfExile_x64Steam.jpg"
     },
     {
-        "name":  "PowerPoint",
-        "path":  "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\PowerPoint.lnk",
-        "icon":  "/utils/paths/PowerPoint.jpg"
+        "name": "PowerPoint",
+        "path": "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\PowerPoint.lnk",
+        "icon": "/utils/paths/PowerPoint.jpg"
     },
     {
-        "name":  "python.exe",
-        "path":  "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\python.exe.lnk",
-        "icon":  "/utils/paths/python.exe.png"
+        "name": "python",
+        "path": "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\python.exe.lnk",
+        "icon": "/utils/paths/python.jpg"
     },
     {
-        "name":  "setup.exe",
-        "path":  "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\setup.exe.lnk",
-        "icon":  "/utils/paths/setup.exe.png"
+        "name": "setup",
+        "path": "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\setup.exe.lnk",
+        "icon": "/utils/paths/setup.jpg"
     },
     {
-        "name":  "steam.exe",
-        "path":  "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\steam.exe.lnk",
-        "icon":  "/utils/paths/steam.exe.png"
+        "name": "steam",
+        "path": "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\steam.exe.lnk",
+        "icon": "/utils/paths/steam.jpg"
     },
     {
-        "name":  "vivaldi.exe - Shortcut",
-        "path":  "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\vivaldi.exe - Shortcut.lnk",
-        "icon":  "/utils/paths/vivaldi.exe - Shortcut.png"
+        "name": "vivaldi.exe - Shortcut",
+        "path": "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\vivaldi.exe - Shortcut.lnk",
+        "icon": "/utils/paths/vivaldi.exe - Shortcut.jpg"
     },
     {
-        "name":  "Windows PowerShell",
-        "path":  "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\Windows PowerShell.lnk",
-        "icon":  "/utils/paths/Windows PowerShell.jpg"
+        "name": "Windows PowerShell",
+        "path": "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\Windows PowerShell.lnk",
+        "icon": "/utils/paths/Windows PowerShell.jpg"
     },
     {
-        "name":  "WINWORD.EXE",
-        "path":  "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\WINWORD.EXE.lnk",
-        "icon":  "/utils/paths/WINWORD.EXE.png"
+        "name": "WINWORD.EXE",
+        "path": "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\WINWORD.EXE.lnk",
+        "icon": "/utils/paths/WINWORD.EXE.jpg"
     },
     {
-        "name":  "World of Warcraft Launcher.exe",
-        "path":  "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\World of Warcraft Launcher.exe.lnk",
-        "icon":  "/utils/paths/World of Warcraft Launcher.exe.png"
+        "name": "World of Warcraft Launcher",
+        "path": "C:\\Users\\Kliea\\Documents\\Development\\Axolotl\\Axolotl\\front\\axolotl\\public\\utils\\paths\\World of Warcraft Launcher.exe.lnk",
+        "icon": "/utils/paths/World of Warcraft Launcher.jpg"
     }
 ]
